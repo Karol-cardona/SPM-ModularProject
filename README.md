@@ -42,8 +42,7 @@ data and the same mapping function. This invariant is the backbone of the correc
 ├── module1/        Vectorization of the partition mapping kernel (SIMD / AVX2 / CUDA)
 ├── module2/        Full join pipeline + parallel version with C++ threads
 ├── module3/        OpenMP: loop-level and task-based parallelism, uniform vs skewed workloads
-├── module4/        Distributed implementation with MPI
-└── README.md       This file
+└── module4/        Distributed implementation with MPI
 ```
 
 Each module directory is self-contained and carries its own `README`, `Makefile`, benchmark
